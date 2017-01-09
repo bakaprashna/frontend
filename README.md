@@ -1,1 +1,3 @@
 # frontend
+
+    make compile

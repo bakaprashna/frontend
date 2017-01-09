@@ -8,5 +8,7 @@ test:
 	echo "TODO"
 
 compile:
-	elm-make src/Component/Header.elm --output build/main.html
+	elm-make src/Main.elm --output build/main.html
 
+format:
+	elm-format --yes src/Main.elm
